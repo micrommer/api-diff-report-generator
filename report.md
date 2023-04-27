@@ -1,0 +1,244 @@
+### REMOVED
+- name : io.vavr.collection.BitSetModule$AbstractBitSet - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.BitSetModule$BitSet1 - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.BitSetModule$BitSet2 - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.BitSetModule$BitSetIterator - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.BitSetModule$BitSetN - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.IteratorModule$BigDecimalHelper - changes : CLASS_REMOVED
+- name : io.vavr.collection.IteratorModule$CachedIterator - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.IteratorModule$ConcatIterator - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.IteratorModule$DistinctIterator - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.IteratorModule$EmptyIterator - changes : CLASS_REMOVED
+- name : io.vavr.collection.IteratorModule$GroupedIterator - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.ListModule$Combinations - changes : CLASS_REMOVED
+- name : io.vavr.collection.ListModule$SplitAt - changes : CLASS_REMOVED
+- name : io.vavr.collection.StreamModule$AppendElements - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.StreamModule$AppendSelf - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.StreamModule$Combinations - changes : CLASS_REMOVED
+- name : io.vavr.collection.StreamModule$ConsImpl - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.StreamModule$DropRight - changes : CLASS_REMOVED
+- name : io.vavr.collection.StreamModule$FlatMapIterator - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.StreamModule$SerializationProxy - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+- name : io.vavr.collection.StreamModule$StreamFactory - changes : CLASS_REMOVED
+- name : io.vavr.collection.StreamModule$StreamIterator - changes : CLASS_REMOVED | CLASS_GENERIC_TEMPLATE_CHANGED
+### NEW
+- name : io.vavr.API$For1Either - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For2Either - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For3Either - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For4Either - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For5Either - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For6Either - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For7Either - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For8Either - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.OnlyModified - changes : INTERFACE_ADDED
+### MODIFIED
+- name : io.vavr.API - changes :  Nothing
+- name : io.vavr.collection.Array - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.collection.BitSet - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | CLASS_TYPE_CHANGED | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.BitSet$Builder - changes : CLASS_NOW_FINAL
+- name : io.vavr.collection.CharSeq - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.collection.HashArrayMappedTrieModule$LeafNodeIterator - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.collection.HashMap - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.collection.HashSet - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.collection.IndexedSeq - changes :  Nothing
+- name : io.vavr.collection.Iterator - changes :  Nothing
+- name : io.vavr.collection.LinearSeq - changes :  Nothing
+- name : io.vavr.collection.LinkedHashMap - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.collection.LinkedHashSet - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.collection.List - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | CLASS_TYPE_CHANGED
+- name : io.vavr.collection.List$Cons - changes : METHOD_REMOVED_IN_SUPERCLASS | METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.List$Nil - changes : METHOD_REMOVED_IN_SUPERCLASS | METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.Map - changes :  Nothing
+- name : io.vavr.collection.Multimap - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.PriorityQueue - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.Queue - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.collection.Seq - changes :  Nothing
+- name : io.vavr.collection.Set - changes :  Nothing
+- name : io.vavr.collection.SortedMap - changes :  Nothing
+- name : io.vavr.collection.SortedMultimap - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.SortedSet - changes :  Nothing
+- name : io.vavr.collection.Stream - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | CLASS_TYPE_CHANGED
+- name : io.vavr.collection.Stream$Cons - changes : METHOD_REMOVED_IN_SUPERCLASS | METHOD_ABSTRACT_ADDED_IN_SUPERCLASS | METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.Stream$Empty - changes : METHOD_REMOVED_IN_SUPERCLASS | METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.Traversable - changes :  Nothing
+- name : io.vavr.collection.Tree - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | CLASS_TYPE_CHANGED
+- name : io.vavr.collection.Tree$Empty - changes : METHOD_REMOVED_IN_SUPERCLASS | METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.Tree$Node - changes : METHOD_REMOVED_IN_SUPERCLASS | METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.TreeMap - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.collection.TreeMultimap - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.TreeSet - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.collection.Vector - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE
+- name : io.vavr.concurrent.Future - changes :  Nothing
+- name : io.vavr.control.Either - changes : CLASS_TYPE_CHANGED
+- name : io.vavr.control.Either$Left - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.control.Either$Right - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.control.Option - changes : CLASS_TYPE_CHANGED
+- name : io.vavr.control.Option$None - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.control.Option$Some - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.control.Try - changes : CLASS_TYPE_CHANGED
+- name : io.vavr.control.Try$Failure - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.control.Try$Success - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.control.Validation - changes : CLASS_TYPE_CHANGED
+- name : io.vavr.control.Validation$Invalid - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.control.Validation$Valid - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.Lazy - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.PartialFunction - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.Tuple0 - changes :  Nothing
+- name : io.vavr.Tuple1 - changes :  Nothing
+- name : io.vavr.Tuple2 - changes :  Nothing
+- name : io.vavr.Tuple3 - changes :  Nothing
+- name : io.vavr.Tuple4 - changes :  Nothing
+- name : io.vavr.Tuple5 - changes :  Nothing
+- name : io.vavr.Tuple6 - changes :  Nothing
+- name : io.vavr.Tuple7 - changes :  Nothing
+- name : io.vavr.Tuple8 - changes :  Nothing
+### UNCHANGED
+- name : io.vavr.API$For1 - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For1Future - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For1List - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For1Option - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For1Try - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For2 - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For2Future - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For2List - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For2Option - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For2Try - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For3 - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For3Future - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For3List - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For3Option - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For3Try - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For4 - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For4Future - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For4List - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For4Option - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For4Try - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For5 - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For5Future - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For5List - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For5Option - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For5Try - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For6 - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For6Future - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For6List - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For6Option - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For6Try - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For7 - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For7Future - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For7List - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For7Option - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For7Try - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For8 - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For8Future - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For8List - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For8Option - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$For8Try - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.API$Match - changes :  Nothing
+- name : io.vavr.API$Match$Case - changes :  Nothing
+- name : io.vavr.API$Match$Case0 - changes :  Nothing
+- name : io.vavr.API$Match$Case1 - changes :  Nothing
+- name : io.vavr.API$Match$Case2 - changes :  Nothing
+- name : io.vavr.API$Match$Case3 - changes :  Nothing
+- name : io.vavr.API$Match$Case4 - changes :  Nothing
+- name : io.vavr.API$Match$Case5 - changes :  Nothing
+- name : io.vavr.API$Match$Case6 - changes :  Nothing
+- name : io.vavr.API$Match$Case7 - changes :  Nothing
+- name : io.vavr.API$Match$Case8 - changes :  Nothing
+- name : io.vavr.API$Match$Pattern - changes :  Nothing
+- name : io.vavr.API$Match$Pattern0 - changes :  Nothing
+- name : io.vavr.API$Match$Pattern1 - changes :  Nothing
+- name : io.vavr.API$Match$Pattern2 - changes :  Nothing
+- name : io.vavr.API$Match$Pattern3 - changes :  Nothing
+- name : io.vavr.API$Match$Pattern4 - changes :  Nothing
+- name : io.vavr.API$Match$Pattern5 - changes :  Nothing
+- name : io.vavr.API$Match$Pattern6 - changes :  Nothing
+- name : io.vavr.API$Match$Pattern7 - changes :  Nothing
+- name : io.vavr.API$Match$Pattern8 - changes :  Nothing
+- name : io.vavr.CheckedConsumer - changes :  Nothing
+- name : io.vavr.CheckedFunction0 - changes :  Nothing
+- name : io.vavr.CheckedFunction1 - changes :  Nothing
+- name : io.vavr.CheckedFunction2 - changes :  Nothing
+- name : io.vavr.CheckedFunction3 - changes :  Nothing
+- name : io.vavr.CheckedFunction4 - changes :  Nothing
+- name : io.vavr.CheckedFunction5 - changes :  Nothing
+- name : io.vavr.CheckedFunction6 - changes :  Nothing
+- name : io.vavr.CheckedFunction7 - changes :  Nothing
+- name : io.vavr.CheckedFunction8 - changes :  Nothing
+- name : io.vavr.CheckedPredicate - changes :  Nothing
+- name : io.vavr.CheckedRunnable - changes :  Nothing
+- name : io.vavr.collection.ArrayModule$Combinations - changes :  Nothing
+- name : io.vavr.collection.ArrayType$BooleanArrayType - changes :  Nothing
+- name : io.vavr.collection.ArrayType$ByteArrayType - changes :  Nothing
+- name : io.vavr.collection.ArrayType$CharArrayType - changes :  Nothing
+- name : io.vavr.collection.ArrayType$DoubleArrayType - changes :  Nothing
+- name : io.vavr.collection.ArrayType$FloatArrayType - changes :  Nothing
+- name : io.vavr.collection.ArrayType$IntArrayType - changes :  Nothing
+- name : io.vavr.collection.ArrayType$LongArrayType - changes :  Nothing
+- name : io.vavr.collection.ArrayType$ObjectArrayType - changes :  Nothing
+- name : io.vavr.collection.ArrayType$ShortArrayType - changes :  Nothing
+- name : io.vavr.collection.CharSeq$CharFunction - changes :  Nothing
+- name : io.vavr.collection.CharSeq$CharUnaryOperator - changes :  Nothing
+- name : io.vavr.collection.CharSeqModule$Combinations - changes :  Nothing
+- name : io.vavr.collection.Foldable - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.HashArrayMappedTrieModule$AbstractNode - changes :  Nothing
+- name : io.vavr.collection.HashArrayMappedTrieModule$Action - changes :  Nothing
+- name : io.vavr.collection.HashArrayMappedTrieModule$ArrayNode - changes :  Nothing
+- name : io.vavr.collection.HashArrayMappedTrieModule$EmptyNode - changes :  Nothing
+- name : io.vavr.collection.HashArrayMappedTrieModule$IndexedNode - changes :  Nothing
+- name : io.vavr.collection.HashArrayMappedTrieModule$LeafList - changes :  Nothing
+- name : io.vavr.collection.HashArrayMappedTrieModule$LeafNode - changes :  Nothing
+- name : io.vavr.collection.HashArrayMappedTrieModule$LeafSingleton - changes :  Nothing
+- name : io.vavr.collection.HashMultimap - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.HashMultimap$Builder - changes :  Nothing
+- name : io.vavr.collection.IndexedSeqModule$Search - changes :  Nothing
+- name : io.vavr.collection.IndexedSeqModule$Slice - changes :  Nothing
+- name : io.vavr.collection.LinearSeqModule$Search - changes :  Nothing
+- name : io.vavr.collection.LinearSeqModule$Slice - changes :  Nothing
+- name : io.vavr.collection.LinkedHashMultimap - changes : METHOD_DEFAULT_ADDED_IN_IMPLEMENTED_INTERFACE | ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.collection.LinkedHashMultimap$Builder - changes :  Nothing
+- name : io.vavr.collection.Multimap$ContainerType - changes :  Nothing
+- name : io.vavr.collection.Ordered - changes :  Nothing
+- name : io.vavr.collection.RedBlackTree$Color - changes :  Nothing
+- name : io.vavr.collection.RedBlackTreeModule$Empty - changes :  Nothing
+- name : io.vavr.collection.RedBlackTreeModule$Node - changes :  Nothing
+- name : io.vavr.collection.Tree$Order - changes :  Nothing
+- name : io.vavr.collection.TreeMap$EntryComparator$Natural - changes :  Nothing
+- name : io.vavr.collection.TreeMap$EntryComparator$Specific - changes :  Nothing
+- name : io.vavr.collection.TreeMultimap$Builder - changes :  Nothing
+- name : io.vavr.collection.VectorModule$Combinations - changes :  Nothing
+- name : io.vavr.concurrent.Promise - changes :  Nothing
+- name : io.vavr.concurrent.Task - changes :  Nothing
+- name : io.vavr.concurrent.Task$Complete - changes :  Nothing
+- name : io.vavr.control.Either$LeftProjection - changes :  Nothing
+- name : io.vavr.control.Either$RightProjection - changes :  Nothing
+- name : io.vavr.control.HashCodes - changes :  Nothing
+- name : io.vavr.control.Try$WithResources1 - changes :  Nothing
+- name : io.vavr.control.Try$WithResources2 - changes :  Nothing
+- name : io.vavr.control.Try$WithResources3 - changes :  Nothing
+- name : io.vavr.control.Try$WithResources4 - changes :  Nothing
+- name : io.vavr.control.Try$WithResources5 - changes :  Nothing
+- name : io.vavr.control.Try$WithResources6 - changes :  Nothing
+- name : io.vavr.control.Try$WithResources7 - changes :  Nothing
+- name : io.vavr.control.Try$WithResources8 - changes :  Nothing
+- name : io.vavr.control.Validation$Builder - changes :  Nothing
+- name : io.vavr.control.Validation$Builder3 - changes :  Nothing
+- name : io.vavr.control.Validation$Builder4 - changes :  Nothing
+- name : io.vavr.control.Validation$Builder5 - changes :  Nothing
+- name : io.vavr.control.Validation$Builder6 - changes :  Nothing
+- name : io.vavr.control.Validation$Builder7 - changes :  Nothing
+- name : io.vavr.control.Validation$Builder8 - changes :  Nothing
+- name : io.vavr.Function0 - changes :  Nothing
+- name : io.vavr.Function1 - changes :  Nothing
+- name : io.vavr.Function2 - changes :  Nothing
+- name : io.vavr.Function3 - changes :  Nothing
+- name : io.vavr.Function4 - changes :  Nothing
+- name : io.vavr.Function5 - changes :  Nothing
+- name : io.vavr.Function6 - changes :  Nothing
+- name : io.vavr.Function7 - changes :  Nothing
+- name : io.vavr.Function8 - changes :  Nothing
+- name : io.vavr.MatchError - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.NotImplementedError - changes : ANNOTATION_DEPRECATED_ADDED
+- > name : io.vavr.Patterns - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.Predicates - changes : ANNOTATION_DEPRECATED_ADDED
+- name : io.vavr.Tuple - changes :  Nothing
+- name : io.vavr.Value - changes : ANNOTATION_DEPRECATED_ADDED
